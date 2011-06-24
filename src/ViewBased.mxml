@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<viewBased:Application
+	xmlns:fx="http://ns.adobe.com/mxml/2009"
+	xmlns:s="library://ns.adobe.com/flex/spark"
+	xmlns:viewBased="org.foomo.zugspitze.flex4Mobile.examples.applications.viewBased.*"
+	firstView="org.foomo.zugspitze.flex4Mobile.examples.applications.viewBased.views.ApplicationView"
+	>
+	<viewBased:navigationContent>
+		<s:Button label="Home" click="this.navigator.popToFirstView()"/>
+	</viewBased:navigationContent>
+
+	<viewBased:titleContent>
+		<s:TextInput width="100%"/>
+		<s:Button label="Search"/>
+	</viewBased:titleContent>
+
+	<viewBased:actionContent>
+		<s:Button label="Add"/>
+	</viewBased:actionContent>
+</viewBased:Application>
