@@ -7,7 +7,7 @@
 	<dependencies>
 		<id>org.foomo.zugspitze.core</id>
 		<id>org.foomo.zugspitze.flex4</id>
-		<id>org.foomo.zugspitze.air4</id>
+		<id>org.foomo.zugspitze.air2</id>
 		<id>org.foomo.zugspitze.flex4Mobile</id>
 	</dependencies>
 	<applications>
