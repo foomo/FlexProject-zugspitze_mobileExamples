@@ -5,6 +5,7 @@
 	<name>Flex 4 Mobile Examples</name>
 	<description>Flex 4 Mobile Examples.</description>
 	<dependencies>
+		<id>org.foomo.flash</id>
 		<id>org.foomo.zugspitze.core</id>
 		<id>org.foomo.zugspitze.flex4</id>
 		<id>org.foomo.zugspitze.air2</id>
