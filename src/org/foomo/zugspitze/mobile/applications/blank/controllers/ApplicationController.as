@@ -14,10 +14,10 @@
  * You should have received a copy of the GNU Lesser General Public License along with
  * the foomo Opensource Framework. If not, see <http://www.gnu.org/licenses/>.
  */
-package org.foomo.zugspitze.flex4Mobile.examples.applications.blank.controllers
+package org.foomo.zugspitze.mobile.applications.blank.controllers
 {
-	import org.foomo.zugspitze.flex4Mobile.examples.applications.blank.models.ApplicationModel;
-	import org.foomo.zugspitze.flex4Mobile.examples.applications.blank.views.ApplicationView;
+	import org.foomo.zugspitze.mobile.applications.blank.models.ApplicationModel;
+	import org.foomo.zugspitze.mobile.applications.blank.views.ApplicationView;
 	import org.foomo.zugspitze.core.ZugspitzeController;
 
 	/**

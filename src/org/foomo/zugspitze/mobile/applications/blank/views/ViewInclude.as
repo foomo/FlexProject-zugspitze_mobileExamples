@@ -1,6 +1,6 @@
-import org.foomo.zugspitze.flex4Mobile.examples.applications.blank.Application;
-import org.foomo.zugspitze.flex4Mobile.examples.applications.blank.controllers.ApplicationController;
-import org.foomo.zugspitze.flex4Mobile.examples.applications.blank.models.ApplicationModel;
+import org.foomo.zugspitze.mobile.applications.blank.Application;
+import org.foomo.zugspitze.mobile.applications.blank.controllers.ApplicationController;
+import org.foomo.zugspitze.mobile.applications.blank.models.ApplicationModel;
 import org.foomo.zugspitze.core.ZugspitzeView;
 
 import flash.display.DisplayObject;

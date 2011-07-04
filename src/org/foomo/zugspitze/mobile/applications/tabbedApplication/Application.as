@@ -14,23 +14,23 @@
  * You should have received a copy of the GNU Lesser General Public License along with
  * the foomo Opensource Framework. If not, see <http://www.gnu.org/licenses/>.
  */
-package org.foomo.zugspitze.flex4Mobile.examples.applications.blank
+package org.foomo.zugspitze.mobile.applications.tabbedApplication
 {
 	import flash.events.Event;
 
 	import mx.events.FlexEvent;
 
-	import org.foomo.zugspitze.apps.ZugspitzeApplication;
-	import org.foomo.zugspitze.flex4Mobile.examples.applications.blank.controllers.ApplicationController;
-	import org.foomo.zugspitze.flex4Mobile.examples.applications.blank.models.ApplicationModel;
-	import org.foomo.zugspitze.flex4Mobile.examples.applications.blank.views.ApplicationView;
+	import org.foomo.zugspitze.mobile.applications.tabbedApplication.controllers.ApplicationController;
+	import org.foomo.zugspitze.mobile.applications.tabbedApplication.models.ApplicationModel;
+	import org.foomo.zugspitze.mobile.applications.tabbedApplication.views.ApplicationView;
+	import org.foomo.zugspitze.mobile.core.ZugspitzeTabbedViewNavigatorApplication;
 
 	/**
 	 * @link    http://www.foomo.org
 	 * @license http://www.gnu.org/licenses/lgpl.txt
 	 * @author  franklin <franklin@weareinteractive.com>
 	 */
-	public class Application extends ZugspitzeApplication
+	public class Application extends ZugspitzeTabbedViewNavigatorApplication
 	{
 		//-----------------------------------------------------------------------------------------
 		// ~ Constructor

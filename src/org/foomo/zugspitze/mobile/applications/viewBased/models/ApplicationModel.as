@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU Lesser General Public License along with
  * the foomo Opensource Framework. If not, see <http://www.gnu.org/licenses/>.
  */
-package org.foomo.zugspitze.flex4Mobile.examples.applications.viewBased.models
+package org.foomo.zugspitze.mobile.applications.viewBased.models
 {
 	import org.foomo.zugspitze.core.ZugspitzeModel;
 

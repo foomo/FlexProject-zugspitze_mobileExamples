@@ -2,6 +2,6 @@
 <blank:Application
 	xmlns:fx="http://ns.adobe.com/mxml/2009"
 	xmlns:s="library://ns.adobe.com/flex/spark"
-	xmlns:blank="org.foomo.zugspitze.flex4Mobile.examples.applications.blank.*"
+	xmlns:blank="org.foomo.zugspitze.mobile.applications.blank.*"
 	>
 </blank:Application>

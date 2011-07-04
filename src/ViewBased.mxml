@@ -2,8 +2,8 @@
 <viewBased:Application
 	xmlns:fx="http://ns.adobe.com/mxml/2009"
 	xmlns:s="library://ns.adobe.com/flex/spark"
-	xmlns:viewBased="org.foomo.zugspitze.flex4Mobile.examples.applications.viewBased.*"
-	firstView="org.foomo.zugspitze.flex4Mobile.examples.applications.viewBased.views.ApplicationView"
+	xmlns:viewBased="org.foomo.zugspitze.mobile.applications.viewBased.*"
+	firstView="org.foomo.zugspitze.mobile.applications.viewBased.views.ApplicationView"
 	>
 	<viewBased:navigationContent>
 		<s:Button label="Home" click="this.navigator.popToFirstView()"/>

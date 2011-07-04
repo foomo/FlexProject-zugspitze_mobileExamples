@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU Lesser General Public License along with
  * the foomo Opensource Framework. If not, see <http://www.gnu.org/licenses/>.
  */
-package org.foomo.zugspitze.flex4Mobile.examples.applications.blank.models
+package org.foomo.zugspitze.mobile.applications.tabbedApplication.models
 {
 	import org.foomo.zugspitze.core.ZugspitzeModel;
 
@@ -27,6 +27,12 @@ package org.foomo.zugspitze.flex4Mobile.examples.applications.blank.models
 	 */
 	public class ApplicationModel extends ZugspitzeModel
 	{
+		//-----------------------------------------------------------------------------------------
+		// ~ Variables
+		//-----------------------------------------------------------------------------------------
+
+		public var message:String = 'Please enter text';
+
 		//-----------------------------------------------------------------------------------------
 		// ~ Constructor
 		//-----------------------------------------------------------------------------------------
