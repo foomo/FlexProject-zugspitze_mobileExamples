@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.foomo.org" xsi:schemaLocation="http://www.foomo.org http://www.foomo.org/foomo/modules/Foomo.Flash/schemas/project.xsd">
+	<id>org.foomo.zugspitze.mobile.examples</id>
+	<group>org.foomo.zugspitze</group>
+	<type>Implementation Project</type>
+	<name>Flex Mobile (Spark) Examples</name>
+	<description>Flex Mobile (Spark) Examples.</description>
+	<exclude>false</exclude>
+	<dependencies>
+		<id>org.foomo.core</id>
+		<id>org.foomo.zugspitze.core</id>
+		<id>org.foomo.zugspitze.spark</id>
+		<id>org.foomo.zugspitze.air.spark</id>
+		<id>org.foomo.zugspitze.mobile</id>
+	</dependencies>
+	<applications>
+		<application>
+			<id>org.foomo.zugspitze.mobile.applications.blank</id>
+			<name>Blank Mobile Application</name>
+			<description></description>
+			<package>org.foomo.zugspitze.mobile.applications.blank</package>
+			<sources>
+				<path>src/Blank.mxml</path>
+				<path>src/org/foomo/zugspitze/mobile/applications/blank</path>
+			</sources>
+		</application>
+		<application>
+			<id>org.foomo.zugspitze.mobile.applications.viewBased</id>
+			<name>View Based Mobile Application</name>
+			<description></description>
+			<package>org.foomo.zugspitze.mobile.applications.viewBased</package>
+			<sources>
+				<path>src/ViewBased.mxml</path>
+				<path>src/org/foomo/zugspitze/mobile/applications/viewBased</path>
+			</sources>
+		</application>
+		<application>
+			<id>org.foomo.zugspitze.mobile.applications.tabbedApplication</id>
+			<name>Tabbed Mobile Application</name>
+			<description></description>
+			<package>org.foomo.zugspitze.mobile.applications.tabbedApplication</package>
+			<sources>
+				<path>src/TabbedApplication.mxml</path>
+				<path>src/org/foomo/zugspitze/mobile/applications/tabbedApplication</path>
+			</sources>
+		</application>
+	</applications>
+</config>
