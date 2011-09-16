@@ -16,10 +16,7 @@
  */
 package org.foomo.zugspitze.mobile.applications.tabbedApplication
 {
-	import flash.events.Event;
-
-	import mx.events.FlexEvent;
-
+	import org.foomo.zugspitze.events.ZugspitzeEvent;
 	import org.foomo.zugspitze.mobile.applications.tabbedApplication.controllers.ApplicationController;
 	import org.foomo.zugspitze.mobile.applications.tabbedApplication.models.ApplicationModel;
 	import org.foomo.zugspitze.mobile.applications.tabbedApplication.views.ApplicationView;

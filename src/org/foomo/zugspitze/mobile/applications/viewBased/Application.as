@@ -16,10 +16,7 @@
  */
 package org.foomo.zugspitze.mobile.applications.viewBased
 {
-	import flash.events.Event;
-
-	import mx.events.FlexEvent;
-
+	import org.foomo.zugspitze.events.ZugspitzeEvent;
 	import org.foomo.zugspitze.mobile.applications.viewBased.controllers.ApplicationController;
 	import org.foomo.zugspitze.mobile.applications.viewBased.models.ApplicationModel;
 	import org.foomo.zugspitze.mobile.applications.viewBased.views.ApplicationView;
